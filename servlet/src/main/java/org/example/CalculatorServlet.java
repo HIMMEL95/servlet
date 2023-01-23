@@ -9,7 +9,6 @@ import java.io.IOException;
 
 @WebServlet("/calculate")
 public class CalculatorServlet implements Servlet {
-
     private static final Logger log = LoggerFactory.getLogger(CalculatorServlet.class);
 
     @Override
@@ -24,7 +23,7 @@ public class CalculatorServlet implements Servlet {
 
     @Override
     public void destroy() {
-
+        log.info("destroy");
     }
 
     @Override

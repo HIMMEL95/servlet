@@ -2,7 +2,7 @@ package org.example.calculator.tobe;
 
 import org.example.calculator.domain.PositiveNumber;
 
-public class SubtractionOperator implements ArithmeticOperator {
+public class SubtractionOperator implements ArithmeticOperator{
     @Override
     public boolean supports(String operator) {
         return "-".equals(operator);
